@@ -1,6 +1,16 @@
 # Linux IPC - Between C and Python
 
- Let's use POSIX message queues for proper IPC between a C program and a Python program on Linux.
+Let's use POSIX message queues for proper IPC between a C program and a Python program on Linux.
+
+You can also use it for communication between two C programs or two Python programs.
+
+All the programs has been tested on PC/Ubuntu 22.04.  
+
+The C programs can be build for RZ/G2L. However, the command below still not successfully executed on RZ/G2L.
+
+```
+ pip3 install posix-ipc
+```
 
 ## 1. C to Python 
 
