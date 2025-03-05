@@ -6,11 +6,13 @@ You can also use it for communication between two C programs or two Python progr
 
 All the programs has been tested on PC/Ubuntu 22.04.  
 
-The C programs can be build for RZ/G2L. However, the command below still not successfully executed on RZ/G2L.
+The C programs both for sender/reciver can be build and executed on RZ/G2L. 
+However, for Python, the command below still not successfully executed on RZ/G2L. 
 
 ```
  pip3 install posix-ipc
 ```
+
 
 ## 1. C to Python 
 
