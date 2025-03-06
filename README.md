@@ -114,7 +114,7 @@ IMAGE_INSTALL_append = " python3-posix-ipc"
 
 then you can run the above python programs on Renesas RZ/G2L.
 
-
+<img src="images/linuxipc.jpg" width=500px>
 
 
 
