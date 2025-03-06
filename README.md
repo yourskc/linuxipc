@@ -101,6 +101,9 @@ Received: Message 4 from Python program
 Received: Message 5 from Python program
 ```
 
+## for Renesas Yocto project
+
+Copy the recipes-devtools to your Yocto project folder then re-build the project. 
 
 
 
