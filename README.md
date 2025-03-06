@@ -13,6 +13,11 @@ However, for Python, the command below still not successfully executed on RZ/G2L
  pip3 install posix-ipc
 ```
 
+**posix-ipc**
+
+The Python extension module posix_ipc gives Python access to POSIX inter-process semaphores, shared memory and message queues on systems
+
+https://github.com/osvenskan/posix_ipc/
 
 ## 1. C to Python 
 
