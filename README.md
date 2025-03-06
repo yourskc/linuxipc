@@ -103,7 +103,7 @@ Received: Message 5 from Python program
 
 ## Yocto project for Renesas RZ/G2L
 
-Copy the recipes-devtools to your Yocto project folder then 
+Copy the recipes-devtools/ folder to your Yocto project folder then 
 re-build the project.
 
 Add the below to your build/local.conf
