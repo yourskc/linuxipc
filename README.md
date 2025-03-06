@@ -101,10 +101,18 @@ Received: Message 4 from Python program
 Received: Message 5 from Python program
 ```
 
-## for Renesas Yocto project
+## Yocto project for Renesas RZ/G2L
 
-Copy the recipes-devtools to your Yocto project folder then re-build the project. 
+Copy the recipes-devtools to your Yocto project folder then 
+re-build the project.
 
+Add the below to your build/local.conf
+
+```
+IMAGE_INSTALL_append = " python3-posix-ipc"
+```
+
+then you can run the above python programs on Renesas RZ/G2L.
 
 
 
